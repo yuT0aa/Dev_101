@@ -1,0 +1,27 @@
+"""
+var x, n, i: entier
+debut
+    lire n
+    x:=1
+    pour i allant de 1:n repeter
+        si i%2:=0 alors
+            x:=x+1/2**i
+        sinon
+            x:=x-1/2**i
+        fin si
+        ecrire x
+    fin pour
+fin
+"""
+
+n = int(input("n= "))
+x = 0
+for i in range(0, n + 1):
+    if i % 2 == 0:
+        x += 1 / (2 ** i)
+    else:
+        x -= 1 / (2 ** i)
+    print(x)
+for i in range(0,n+1):
+    x+=-1**i*1/2**i    
+    
