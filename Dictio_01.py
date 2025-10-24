@@ -184,4 +184,3 @@ if __name__ == "__main__":
             break
         else:
             print("Option invalide.")
-# Note: Keep your bot token secure and do not share it publicly.
